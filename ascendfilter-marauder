@@ -116,14 +116,14 @@ Show
 
 Show
                     Class == "Stackable Currency"
-                    SetBackgroundColor 68 0 51 210
+                    SetBackgroundColor 0 0 0 210
                     SetBorderColor 255 255 255 0
                     SetFontSize 40
                     SetTextColor 255 204 0
 
 Show
                     Class == "Skill Gems" "Support Gems"
-                    SetBackgroundColor 68 0 51 210
+                    SetBackgroundColor 0 0 0 210
                     SetBorderColor 255 255 255 0
                     SetFontSize 40
                     SetTextColor 27 162 155
