@@ -71,6 +71,34 @@ Show
                     SetTextColor 0 0 0
 
 Show
+                    Rarity = Normal
+                    Class == "Amulets" "Belts" "Rings"
+                    SetBackgroundColor 0 0 0 153
+                    SetFontSize 30
+                    SetTextColor 200 200 200 153
+
+Show
+                    Rarity = Magic
+                    Class == "Amulets" "Belts" "Rings"
+                    SetBackgroundColor 0 0 0 204
+                    SetFontSize 35
+                    SetTextColor 136 136 255 204
+
+Show
+                    Rarity = Rare
+                    Class == "Amulets" "Belts" "Rings"
+                    SetBackgroundColor 0 0 0 204
+                    SetFontSize 40
+                    SetTextColor 255 255 119 255
+
+Show
+                    Rarity = Unique
+                    Class == "Amulets" "Belts" "Rings"
+                    SetBackgroundColor 0 0 0 204
+                    SetFontSize 45
+                    SetTextColor 175 96 37 255
+
+Show
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
                     SetBackgroundColor 0 0 0 210
                     SetBorderColor 255 255 255 0
