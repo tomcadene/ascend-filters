@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Multiclass
 # -------------------------
-# Version: 05.26.2024.002
+# Version: 05.26.2024.003
 # ==================================================
 
 Show
@@ -71,10 +71,19 @@ Show
                     SetTextColor 175 96 37 255
 
 Show
+                    Rarity = Normal
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-                    SetBackgroundColor 0 0 0 210
+                    SetBackgroundColor 102 0 77 210
                     SetBorderColor 255 255 255 0
-                    SetFontSize 40
+                    SetFontSize 30
+                    SetTextColor 255 255 255
+
+Show
+                    Rarity = Magic
+                    Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+                    SetBackgroundColor 102 0 77 210
+                    SetBorderColor 255 255 255 0
+                    SetFontSize 25
                     SetTextColor 255 255 255
 
 Show
