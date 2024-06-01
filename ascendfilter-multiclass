@@ -10,6 +10,7 @@ Show
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 30
                     SetTextColor 200 200 200 153
+                    MinimapIcon 2 White Square
 
 Show
                     Rarity = Magic
@@ -17,6 +18,7 @@ Show
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 35
                     SetTextColor 136 136 255 204
+                    MinimapIcon 2 Blue Square
 
 Show
                     Rarity = Rare
@@ -24,6 +26,7 @@ Show
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 40
                     SetTextColor 255 255 119 255
+                    MinimapIcon 2 Yellow Square
 
 Show
                     Rarity = Unique
@@ -31,6 +34,7 @@ Show
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
+                    MinimapIcon 2 Brown Square
 
 Show
                     Rarity >= Rare
@@ -48,6 +52,7 @@ Show
                     SetBackgroundColor 19 44 0 153
                     SetFontSize 30
                     SetTextColor 200 200 200 153
+                    MinimapIcon 2 White Pentagon
 
 Show
                     Rarity = Magic
@@ -55,6 +60,7 @@ Show
                     SetBackgroundColor 19 44 0 204
                     SetFontSize 35
                     SetTextColor 136 136 255 204
+                    MinimapIcon 2 Blue Pentagon
 
 Show
                     Rarity = Rare
@@ -62,6 +68,7 @@ Show
                     SetBackgroundColor 19 44 0 204
                     SetFontSize 40
                     SetTextColor 255 255 119 255
+                    MinimapIcon 2 Yellow Pentagon
 
 Show
                     Rarity = Unique
@@ -69,6 +76,7 @@ Show
                     SetBackgroundColor 19 44 0 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
+                    MinimapIcon 1 Brown Pentagon
 
 Show
                     Rarity = Normal
@@ -77,6 +85,7 @@ Show
                     SetBorderColor 255 255 255 0
                     SetFontSize 30
                     SetTextColor 255 255 255
+                    MinimapIcon 2 White Kite
 
 Show
                     Rarity = Magic
@@ -85,6 +94,7 @@ Show
                     SetBorderColor 255 255 255 0
                     SetFontSize 25
                     SetTextColor 255 255 255
+                    MinimapIcon 2 Blue Kite
 
 Show
                     Class == "Stackable Currency"
@@ -92,6 +102,7 @@ Show
                     SetBorderColor 255 255 255 0
                     SetFontSize 40
                     SetTextColor 255 204 0
+                    MinimapIcon 2 Yellow circle
 
 Show
                     Class == "Skill Gems" "Support Gems"
@@ -99,4 +110,5 @@ Show
                     SetBorderColor 255 255 255 0
                     SetFontSize 40
                     SetTextColor 27 162 155
+                    MinimapIcon 2 Cyan Diamond
 Continue
