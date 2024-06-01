@@ -31,7 +31,7 @@ Show
 Show
                     Rarity = Unique
                     Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
-                    PlayAlertSound 14 200
+                    PlayAlertSound 16 200
                     MinimapIcon 2 Brown Square
                     PlayEffect Brown
                     SetBackgroundColor 0 0 0 204
