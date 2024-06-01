@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Marauder
 # -------------------------
-# Version: 06.01.2024.002
+# Version: 06.01.2024.003
 # ==================================================
 
 Show
@@ -55,8 +55,9 @@ Show
 Show
                     Rarity = Unique
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
-                    PlayAlertSound 14 200
+                    PlayAlertSound 16 200
                     MinimapIcon 1 Brown Square
+                    PlayEffect Brown
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
@@ -64,7 +65,7 @@ Show
 Show
                     Rarity = Unique
                     Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
-                    PlayAlertSound 14 200
+                    PlayAlertSound 16 200
                     MinimapIcon 1 Brown Cross
                     PlayEffect Brown
                     SetBackgroundColor 0 0 0 153
@@ -135,7 +136,7 @@ Show
 
 Show
                     Class == "Stackable Currency"
-                    PlayAlertSound 4 200
+                    PlayAlertSound 1 100
                     MinimapIcon 2 Yellow Circle
                     SetBackgroundColor 0 0 0 210
                     SetBorderColor 255 255 255 0
