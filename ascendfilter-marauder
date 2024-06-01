@@ -7,72 +7,75 @@
 Show
                     Rarity = Normal
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    MinimapIcon 2 White Square
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 30
                     SetTextColor 200 200 200 153
-                    MinimapIcon 2 White Square
 
 Show
                     Rarity = Normal
                     Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
+                    MinimapIcon 2 White Cross
                     SetBackgroundColor 0 0 0 102
                     SetFontSize 30
                     SetTextColor 200 200 200 102
-                    MinimapIcon 2 White Cross
 
 Show
                     Rarity = Magic
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    MinimapIcon 2 Blue Square
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 35
                     SetTextColor 136 136 255 204
-                    MinimapIcon 2 Blue Square
 
 Show
                     Rarity = Magic
                     Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
+                    MinimapIcon 2 Blue Cross
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 35
                     SetTextColor 136 136 255 102
-                    MinimapIcon 2 Blue Cross
 
 Show
                     Rarity = Rare
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    MinimapIcon 2 Yellow Square
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 40
                     SetTextColor 255 255 119 255
-                    MinimapIcon 2 Yellow Square
 
 Show
                     Rarity = Rare
                     Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
+                    MinimapIcon 2 Yellow Cross
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 40
                     SetTextColor 255 255 119 153
-                    MinimapIcon 2 Yellow Cross
 
 Show
                     Rarity = Unique
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    PlayAlertSound 14 200
+                    MinimapIcon 1 Brown Square
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
-                    MinimapIcon 1 Brown Square
 
 Show
                     Rarity = Unique
                     Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
+                    PlayAlertSound 14 200
+                    MinimapIcon 1 Brown Cross
+                    PlayEffect Brown
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 45
                     SetTextColor 175 96 37 204
-                    MinimapIcon 1 Brown Cross
 
 Show
                     Rarity >= Rare
                     LinkedSockets >= 5
                     MinimapIcon 2 Cyan Diamond
-                    PlayEffect Red Temp
+                    PlayEffect Red
                     SetBackgroundColor 255 255 255 255
                     SetBorderColor 255 255 255
                     SetFontSize 45
@@ -81,66 +84,70 @@ Show
 Show
                     Rarity = Normal
                     Class == "Amulets" "Belts" "Rings"
+                    MinimapIcon 2 White Pentagon
                     SetBackgroundColor 19 44 0 153
                     SetFontSize 30
                     SetTextColor 200 200 200 153
-                    MinimapIcon 2 White Pentagon
 
 Show
                     Rarity = Magic
                     Class == "Amulets" "Belts" "Rings"
+                    MinimapIcon 2 Blue Pentagon
                     SetBackgroundColor 19 44 0 204
                     SetFontSize 35
                     SetTextColor 136 136 255 204
-                    MinimapIcon 2 Blue Pentagon
 
 Show
                     Rarity = Rare
                     Class == "Amulets" "Belts" "Rings"
+                    MinimapIcon 2 Yellow Pentagon
                     SetBackgroundColor 19 44 0 204
                     SetFontSize 40
                     SetTextColor 255 255 119 255
-                    MinimapIcon 2 Yellow Pentagon
 
 Show
                     Rarity = Unique
                     Class == "Amulets" "Belts" "Rings"
+                    PlayAlertSound 7 200
+                    MinimapIcon 1 Brown Pentagon
+                    PlayEffect Brown
                     SetBackgroundColor 19 44 0 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
-                    MinimapIcon 1 Brown Pentagon
 
 Show
                     Rarity = Normal
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+                    MinimapIcon 2 White Kite
                     SetBackgroundColor 41 0 31 210
                     SetBorderColor 255 255 255 0
                     SetFontSize 30
                     SetTextColor 255 255 255
-                    MinimapIcon 2 White Kite
 
 Show
                     Rarity = Magic
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+                    MinimapIcon 2 White Kite
                     SetBackgroundColor 41 0 31 210
                     SetBorderColor 255 255 255 0
                     SetFontSize 30
                     SetTextColor 255 255 255
-                    MinimapIcon 2 White Kite
 
 Show
                     Class == "Stackable Currency"
+                    PlayAlertSound 4 200
+                    MinimapIcon 2 Yellow Circle
                     SetBackgroundColor 0 0 0 210
                     SetBorderColor 255 255 255 0
                     SetFontSize 40
                     SetTextColor 255 204 0
-                    MinimapIcon 2 Yellow circle
 
 Show
                     Class == "Skill Gems" "Support Gems"
+                    PlayAlertSound 12 200
+                    MinimapIcon 2 Cyan Diamond
                     SetBackgroundColor 0 0 0 210
                     SetBorderColor 255 255 255 0
                     SetFontSize 40
                     SetTextColor 27 162 155
-                    MinimapIcon 2 Cyan Diamond
 Continue
