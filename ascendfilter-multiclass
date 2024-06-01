@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Multiclass
 # -------------------------
-# Version: 06.01.2024.002
+# Version: 06.01.2024.003
 # ==================================================
 
 Show
@@ -33,7 +33,7 @@ Show
                     Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
                     PlayAlertSound 14 200
                     MinimapIcon 2 Brown Square
-                    PlayEffect Brown Temp
+                    PlayEffect Brown
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
@@ -102,7 +102,7 @@ Show
 
 Show
                     Class == "Stackable Currency"
-                    PlayAlertSound 4 200
+                    PlayAlertSound 1 100
                     MinimapIcon 2 Yellow Circle
                     SetBackgroundColor 0 0 0 210
                     SetBorderColor 255 255 255 0
