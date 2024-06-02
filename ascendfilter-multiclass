@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Multiclass
 # -------------------------
-# Version: 06.01.2024.003
+# Version: 06.02.2024.001
 # ==================================================
 
 Show
@@ -81,6 +81,50 @@ Show
                     SetBackgroundColor 19 44 0 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
+
+Show
+                    Rarity >= Rare
+                    Class == "Body Armours" "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+                    LinkedSockets >= 5
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 0 0 0 204
+                    SetBorderColor 255 255 255
+                    SetFontSize 45
+                    SetTextColor 153 255 0
+
+Show
+                    Rarity >= Rare
+                    Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Thrusting One Hand Swords" "Wands"
+                    LinkedSockets >= 3
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 0 0 0 204
+                    SetBorderColor 255 255 255
+                    SetFontSize 45
+                    SetTextColor 153 255 0
+
+Show
+                    Rarity >= Rare
+                    Class == "Boots" "Gloves" "Helmets" 
+                    LinkedSockets >= 4
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 0 0 0 204
+                    SetBorderColor 255 255 255
+                    SetFontSize 45
+                    SetTextColor 153 255 0
+
+Show
+                    Rarity >= Rare
+                    BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
+                    LinkedSockets >= 1
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 0 0 0 204
+                    SetBorderColor 255 255 255
+                    SetFontSize 45
+                    SetTextColor 153 255 0
 
 Show
                     Rarity = Normal
