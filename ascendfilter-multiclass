@@ -1,13 +1,12 @@
 # ==================================================
 # AscendFilter Multiclass
 # -------------------------
-# Version: 06.02.2024.001
+# Version: 06.02.2024.002
 # ==================================================
 
 Show
                     Rarity = Normal
                     Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
-                    MinimapIcon 2 White Square
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 30
                     SetTextColor 200 200 200 153
@@ -15,7 +14,6 @@ Show
 Show
                     Rarity = Magic
                     Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
-                    MinimapIcon 2 Blue Square
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 35
                     SetTextColor 136 136 255 204
@@ -51,7 +49,6 @@ Show
 Show
                     Rarity = Normal
                     Class == "Amulets" "Belts" "Rings"
-                    MinimapIcon 2 White Pentagon
                     SetBackgroundColor 19 44 0 153
                     SetFontSize 30
                     SetTextColor 200 200 200 153
@@ -59,7 +56,6 @@ Show
 Show
                     Rarity = Magic
                     Class == "Amulets" "Belts" "Rings"
-                    MinimapIcon 2 Blue Pentagon
                     SetBackgroundColor 19 44 0 204
                     SetFontSize 35
                     SetTextColor 136 136 255 204
@@ -165,7 +161,6 @@ Show
 Show
                     Rarity = Normal
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-                    MinimapIcon 2 White Kite
                     SetBackgroundColor 41 0 31 210
                     SetBorderColor 255 255 255 0
                     SetFontSize 30
