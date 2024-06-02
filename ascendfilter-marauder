@@ -43,7 +43,6 @@ Show
 Show
                     Rarity = Rare
                     Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
-                    MinimapIcon 2 Yellow Cross
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 40
                     SetTextColor 255 255 119 153
