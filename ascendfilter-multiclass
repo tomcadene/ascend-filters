@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Multiclass
 # -------------------------
-# Version: 06.07.2024.002
+# Version: 06.07.2024.003
 # ==================================================
 
 # ==========
@@ -93,7 +93,7 @@ Show
                     PlayEffect Green
                     SetBackgroundColor 255 255 255 204
                     SetFontSize 40
-                    SetTextColor 160 160 160 255
+                    SetTextColor 0 0 0 255
 
 Show
                     Rarity = Magic
@@ -133,7 +133,7 @@ Show
                     PlayEffect Green
                     SetBackgroundColor 255 255 255 204
                     SetFontSize 40
-                    SetTextColor 160 160 160 255
+                    SetTextColor 0 0 0 255
 
 Show
                     Rarity = Magic
@@ -173,7 +173,7 @@ Show
                     PlayEffect Green
                     SetBackgroundColor 255 255 255 204
                     SetFontSize 40
-                    SetTextColor 160 160 160 255
+                    SetTextColor 0 0 0 255
 
 Show
                     Rarity = Magic
@@ -250,40 +250,8 @@ Show
 Show
                     Rarity = Normal
                     Class == "Amulets" "Belts" "Rings"
-                    SetBackgroundColor 19 44 0 153
-                    SetFontSize 30
-                    SetTextColor 200 200 200 153
-
-Show
-                    Rarity = Magic
-                    Class == "Amulets" "Belts" "Rings"
-                    SetBackgroundColor 19 44 0 204
-                    SetFontSize 35
-                    SetTextColor 136 136 255 204
-
-Show
-                    Rarity = Rare
-                    Class == "Amulets" "Belts" "Rings"
-                    MinimapIcon 2 Yellow Pentagon
-                    SetBackgroundColor 19 44 0 204
-                    SetFontSize 40
-                    SetTextColor 255 255 119 255
-
-Show
-                    Rarity = Unique
-                    Class == "Amulets" "Belts" "Rings"
-                    PlayAlertSound 7 200
-                    MinimapIcon 1 Brown Pentagon
-                    PlayEffect Brown
-                    SetBackgroundColor 19 44 0 204
-                    SetFontSize 45
-                    SetTextColor 175 96 37 255
-
-Show
-                    Rarity = Normal
-                    Class == "Amulets" "Belts" "Rings"
                     MinimapIcon 2 White Pentagon
-                    SetBackgroundColor 19 44 0 204
+                    SetBackgroundColor 29 54 10 204
                     SetFontSize 35
                     SetTextColor 200 200 200 204
 
@@ -291,7 +259,7 @@ Show
                     Rarity = Magic
                     Class == "Amulets" "Belts" "Rings"
                     MinimapIcon 2 Blue Pentagon
-                    SetBackgroundColor 19 44 0 204
+                    SetBackgroundColor 29 54 10 204
                     SetFontSize 35
                     SetTextColor 136 136 255 204
 
@@ -299,7 +267,7 @@ Show
                     Rarity = Rare
                     Class == "Amulets" "Belts" "Rings"
                     MinimapIcon 2 Yellow Pentagon
-                    SetBackgroundColor 19 44 0 204
+                    SetBackgroundColor 29 54 10 204
                     SetFontSize 40
                     SetTextColor 255 255 119 255
 
@@ -309,7 +277,7 @@ Show
                     PlayAlertSound 7 200
                     MinimapIcon 1 Brown Pentagon
                     PlayEffect Brown
-                    SetBackgroundColor 19 44 0 204
+                    SetBackgroundColor 29 54 10 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
 
@@ -317,7 +285,7 @@ Show
                     Rarity = Normal
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
                     MinimapIcon 2 White Kite
-                    SetBackgroundColor 41 0 31 204
+                    SetBackgroundColor 51 10 41 204
                     SetBorderColor 255 255 255 0
                     SetFontSize 35
                     SetTextColor 255 255 255
@@ -326,7 +294,7 @@ Show
                     Rarity = Magic
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
                     MinimapIcon 2 Blue Kite
-                    SetBackgroundColor 41 0 31 204
+                    SetBackgroundColor 51 10 41 204
                     SetBorderColor 255 255 255 0
                     SetFontSize 35
                     SetTextColor 255 255 255
