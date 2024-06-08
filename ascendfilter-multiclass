@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Multiclass
 # -------------------------
-# Version: 06.03.2024.001
+# Version: 06.07.2024.001
 # ==================================================
 
 Show
@@ -79,14 +79,34 @@ Show
                     SetTextColor 175 96 37 255
 
 Show
+                    Rarity = Normal
+                    Class == "Body Armours" "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+                    LinkedSockets >= 5
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 40
+                    SetTextColor 160 160 160 255
+
+Show
+                    Rarity = Magic
+                    Class == "Body Armours" "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+                    LinkedSockets >= 5
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 40
+                    SetTextColor 109 109 204 255
+
+Show
                     Rarity = Rare
                     Class == "Body Armours" "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
                     LinkedSockets >= 5
                     MinimapIcon 1 Green Pentagon
                     PlayEffect Green
-                    SetBackgroundColor 246 255 232 204
+                    SetBackgroundColor 255 255 255 204
                     SetFontSize 40
-                    SetTextColor 255 255 119 255
+                    SetTextColor 204 204 95 255
 
 Show
                     Rarity = Unique
@@ -94,9 +114,29 @@ Show
                     LinkedSockets >= 5
                     MinimapIcon 1 Green Pentagon
                     PlayEffect Green
-                    SetBackgroundColor 246 255 232 204
+                    SetBackgroundColor 255 255 255 204
                     SetFontSize 45
-                    SetTextColor 175 96 37 255
+                    SetTextColor 140 77 30 255
+
+Show
+                    Rarity = Normal
+                    Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Thrusting One Hand Swords" "Wands"
+                    LinkedSockets >= 3
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 40
+                    SetTextColor 160 160 160 255
+
+Show
+                    Rarity = Magic
+                    Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Thrusting One Hand Swords" "Wands"
+                    LinkedSockets >= 3
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 40
+                    SetTextColor 109 109 204 255
 
 Show
                     Rarity = Rare
@@ -104,9 +144,9 @@ Show
                     LinkedSockets >= 3
                     MinimapIcon 1 Green Pentagon
                     PlayEffect Green
-                    SetBackgroundColor 246 255 232 204
+                    SetBackgroundColor 255 255 255 204
                     SetFontSize 40
-                    SetTextColor 255 255 119 255
+                    SetTextColor 204 204 95 255
 
 Show
                     Rarity = Unique
@@ -114,9 +154,29 @@ Show
                     LinkedSockets >= 3
                     MinimapIcon 1 Green Pentagon
                     PlayEffect Green
-                    SetBackgroundColor 246 255 232 204
+                    SetBackgroundColor 255 255 255 204
                     SetFontSize 45
-                    SetTextColor 175 96 37 255
+                    SetTextColor 140 77 30 255
+
+Show
+                    Rarity = Normal
+                    Class == "Boots" "Gloves" "Helmets" 
+                    LinkedSockets >= 4
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 40
+                    SetTextColor 160 160 160 255
+
+Show
+                    Rarity = Magic
+                    Class == "Boots" "Gloves" "Helmets" 
+                    LinkedSockets >= 4
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 40
+                    SetTextColor 109 109 204 255
 
 Show
                     Rarity = Rare
@@ -124,9 +184,9 @@ Show
                     LinkedSockets >= 4
                     MinimapIcon 1 Green Pentagon
                     PlayEffect Green
-                    SetBackgroundColor 246 255 232 204
+                    SetBackgroundColor 255 255 255 204
                     SetFontSize 40
-                    SetTextColor 255 255 119 255
+                    SetTextColor 204 204 95 255
 
 Show
                     Rarity = Unique
@@ -134,9 +194,29 @@ Show
                     LinkedSockets >= 4
                     MinimapIcon 1 Green Pentagon
                     PlayEffect Green
-                    SetBackgroundColor 246 255 232 204
+                    SetBackgroundColor 255 255 255 204
                     SetFontSize 45
-                    SetTextColor 175 96 37 255
+                    SetTextColor 140 77 30 255
+
+Show
+                    Rarity = Normal
+                    BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
+                    LinkedSockets >= 1
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 40
+                    SetTextColor 160 160 160 255
+
+Show
+                    Rarity = Magic
+                    BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
+                    LinkedSockets >= 1
+                    MinimapIcon 1 Green Pentagon
+                    PlayEffect Green
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 40
+                    SetTextColor 109 109 204 255
 
 Show
                     Rarity = Rare
@@ -144,9 +224,9 @@ Show
                     LinkedSockets >= 1
                     MinimapIcon 1 Green Pentagon
                     PlayEffect Green
-                    SetBackgroundColor 246 255 232 204
+                    SetBackgroundColor 255 255 255 204
                     SetFontSize 40
-                    SetTextColor 255 255 119 255
+                    SetTextColor 204 204 95 255
 
 Show
                     Rarity = Unique
@@ -154,32 +234,67 @@ Show
                     LinkedSockets >= 1
                     MinimapIcon 1 Green Pentagon
                     PlayEffect Green
-                    SetBackgroundColor 246 255 232 204
+                    SetBackgroundColor 255 255 255 204
+                    SetFontSize 45
+                    SetTextColor 140 77 30 255
+
+Show
+                    Rarity = Normal
+                    Class == "Amulets" "Belts" "Rings"
+                    MinimapIcon 2 White Pentagon
+                    SetBackgroundColor 19 44 0 204
+                    SetFontSize 35
+                    SetTextColor 200 200 200 204
+
+Show
+                    Rarity = Magic
+                    Class == "Amulets" "Belts" "Rings"
+                    MinimapIcon 2 Blue Pentagon
+                    SetBackgroundColor 19 44 0 204
+                    SetFontSize 35
+                    SetTextColor 136 136 255 204
+
+Show
+                    Rarity = Rare
+                    Class == "Amulets" "Belts" "Rings"
+                    MinimapIcon 2 Yellow Pentagon
+                    SetBackgroundColor 19 44 0 204
+                    SetFontSize 40
+                    SetTextColor 255 255 119 255
+
+Show
+                    Rarity = Unique
+                    Class == "Amulets" "Belts" "Rings"
+                    PlayAlertSound 7 200
+                    MinimapIcon 1 Brown Pentagon
+                    PlayEffect Brown
+                    SetBackgroundColor 19 44 0 204
                     SetFontSize 45
                     SetTextColor 175 96 37 255
 
 Show
                     Rarity = Normal
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-                    SetBackgroundColor 41 0 31 210
+                    MinimapIcon 2 White Kite
+                    SetBackgroundColor 41 0 31 204
                     SetBorderColor 255 255 255 0
-                    SetFontSize 30
+                    SetFontSize 35
                     SetTextColor 255 255 255
 
 Show
                     Rarity = Magic
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-                    MinimapIcon 2 White Kite
-                    SetBackgroundColor 41 0 31 210
+                    MinimapIcon 2 Blue Kite
+                    SetBackgroundColor 41 0 31 204
                     SetBorderColor 255 255 255 0
-                    SetFontSize 30
+                    SetFontSize 35
                     SetTextColor 255 255 255
 
 Show
                     Class == "Stackable Currency"
-                    PlayAlertSound 1 100
+                    PlayAlertSound 4 100
                     MinimapIcon 2 Yellow Circle
-                    SetBackgroundColor 0 0 0 210
+                    SetBackgroundColor 0 0 0 204
                     SetBorderColor 255 255 255 0
                     SetFontSize 40
                     SetTextColor 255 204 0
@@ -188,8 +303,46 @@ Show
                     Class == "Skill Gems" "Support Gems"
                     PlayAlertSound 12 200
                     MinimapIcon 2 Cyan Diamond
-                    SetBackgroundColor 0 0 0 210
+                    SetBackgroundColor 0 0 0 204
                     SetBorderColor 255 255 255 0
                     SetFontSize 40
                     SetTextColor 27 162 155
+
+# ==========
+# Vendor recipes
+
+Show
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+                    SocketGroup >= 3RGB
+                    MinimapIcon 1 Green Star
+                    PlayEffect Green
+                    SetBackgroundColor 32 47 0 204
+                    SetFontSize 40
+                    SetTextColor 159 235 0 255
+
+Show
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+                    Sockets >= 6
+                    MinimapIcon 1 Green Star
+                    PlayEffect Green
+                    SetBackgroundColor 32 47 0 204
+                    SetFontSize 40
+                    SetTextColor 159 235 0 255
+
+Show
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+                    SocketGroup >= 6
+                    MinimapIcon 1 Green Star
+                    PlayEffect Green
+                    SetBackgroundColor 32 47 0 204
+                    SetFontSize 40
+                    SetTextColor 159 235 0 255
+
+# ==========
+# General rules
+
+Show
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+                    Corrupted True
+                    SetBorderColor 210 0 0
 Continue
