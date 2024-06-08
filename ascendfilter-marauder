@@ -1,8 +1,24 @@
 # ==================================================
 # AscendFilter Marauder
 # -------------------------
-# Version: 06.07.2024.001
+# Version: 06.07.2024.002
 # ==================================================
+
+Show
+                    Rarity = Normal
+                    Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    BaseEnergyShield > 0
+                    SetBackgroundColor 0 0 0 102
+                    SetFontSize 30
+                    SetTextColor 200 200 200 102
+
+Show
+                    Rarity = Normal
+                    Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    BaseEvasion > 0
+                    SetBackgroundColor 0 0 0 102
+                    SetFontSize 30
+                    SetTextColor 200 200 200 102
 
 Show
                     Rarity = Normal
@@ -13,19 +29,26 @@ Show
 
 Show
                     Rarity = Normal
-                    Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
-                    BaseEnergyShield > 0
-                    BaseEvasion > 0
+                    Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
                     SetBackgroundColor 0 0 0 102
                     SetFontSize 30
                     SetTextColor 200 200 200 102
 
 Show
-                    Rarity = Normal
-                    Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 102
-                    SetFontSize 30
-                    SetTextColor 200 200 200 102
+                    Rarity = Magic
+                    Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    BaseEnergyShield > 0
+                    SetBackgroundColor 0 0 0 153
+                    SetFontSize 35
+                    SetTextColor 136 136 255 102
+
+Show
+                    Rarity = Magic
+                    Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    BaseEvasion > 0
+                    SetBackgroundColor 0 0 0 153
+                    SetFontSize 35
+                    SetTextColor 136 136 255 102
 
 Show
                     Rarity = Magic
@@ -36,15 +59,6 @@ Show
 
 Show
                     Rarity = Magic
-                    Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
-                    BaseEnergyShield > 0
-                    BaseEvasion > 0
-                    SetBackgroundColor 0 0 0 153
-                    SetFontSize 35
-                    SetTextColor 136 136 255 102
-
-Show
-                    Rarity = Magic
                     Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 35
@@ -53,20 +67,28 @@ Show
 Show
                     Rarity = Rare
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    BaseEnergyShield > 0
                     MinimapIcon 2 Yellow Square
-                    SetBackgroundColor 0 0 0 204
+                    SetBackgroundColor 0 0 0 153
                     SetFontSize 40
-                    SetTextColor 255 255 119 255
+                    SetTextColor 255 255 119 153
 
 Show
                     Rarity = Rare
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
-                    BaseEnergyShield > 0
                     BaseEvasion > 0
                     MinimapIcon 2 Yellow Square
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 40
                     SetTextColor 255 255 119 153
+
+Show
+                    Rarity = Rare
+                    Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    MinimapIcon 2 Yellow Square
+                    SetBackgroundColor 0 0 0 204
+                    SetFontSize 40
+                    SetTextColor 255 255 119 255
 
 Show
                     Rarity = Rare
