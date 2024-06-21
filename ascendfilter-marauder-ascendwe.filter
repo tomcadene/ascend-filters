@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Marauder - Ascendwe
 # -------------------------
-# Version: 06.19.2024.001
+# Version: 06.21.2024.001
 # ==================================================
 
 # ==========
@@ -236,6 +236,8 @@ Continue
 Show
                     Rarity = Rare
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    BaseEnergyShield <= 0
+                    BaseEvasion <= 0
                     MinimapIcon 2 Yellow Square
 Continue
 
@@ -246,7 +248,7 @@ Show
                     PlayAlertSound 16 200
                     MinimapIcon 1 White Diamond
                     PlayEffect White
-                    SetBackgroundColor 255 255 255 153
+                    SetBackgroundColor 102 102 102 204
                     SetFontSize 45
 Continue
 
@@ -257,7 +259,7 @@ Show
                     PlayAlertSound 16 200
                     MinimapIcon 1 White Diamond
                     PlayEffect White
-                    SetBackgroundColor 255 255 255 153
+                    SetBackgroundColor 102 102 102 204
                     SetFontSize 45
 Continue
 
@@ -268,7 +270,7 @@ Show
                     PlayAlertSound 16 200
                     MinimapIcon 1 White Diamond
                     PlayEffect White
-                    SetBackgroundColor 255 255 255 153
+                    SetBackgroundColor 102 102 102 204
                     SetFontSize 45
 Continue
 
@@ -279,7 +281,7 @@ Show
                     PlayAlertSound 16 200
                     MinimapIcon 1 White Diamond
                     PlayEffect White
-                    SetBackgroundColor 255 255 255 153
+                    SetBackgroundColor 102 102 102 204
                     SetFontSize 45
 Continue
 
@@ -311,56 +313,56 @@ Show
                     Rarity = Normal
                     Class == "Boots" "Gloves" "Helmets" 
                     LinkedSockets >= 4
-                    SetBackgroundColor 153 153 153 204
+                    SetBackgroundColor 102 102 102 204
 Continue
 
 Show
                     Rarity = Magic
                     Class == "Boots" "Gloves" "Helmets" 
                     LinkedSockets >= 4
-                    SetBackgroundColor 153 153 153 204
+                    SetBackgroundColor 102 102 102 204
 Continue
 
 Show
                     Rarity = Rare
                     Class == "Boots" "Gloves" "Helmets" 
                     LinkedSockets >= 4
-                    SetBackgroundColor 153 153 153 204
+                    SetBackgroundColor 102 102 102 204
 Continue
 
 Show
                     Rarity = Unique
                     Class == "Boots" "Gloves" "Helmets" 
                     LinkedSockets >= 4
-                    SetBackgroundColor 153 153 153 204
+                    SetBackgroundColor 102 102 102 204
 Continue
 
 Show
                     Rarity = Normal
                     BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
                     LinkedSockets >= 1
-                    SetBackgroundColor 153 153 153 204
+                    SetBackgroundColor 102 102 102 204
 Continue
 
 Show
                     Rarity = Magic
                     BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
                     LinkedSockets >= 1
-                    SetBackgroundColor 153 153 153 204
+                    SetBackgroundColor 102 102 102 204
 Continue
 
 Show
                     Rarity = Rare
                     BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
                     LinkedSockets >= 1
-                    SetBackgroundColor 153 153 153 204
+                    SetBackgroundColor 102 102 102 204
 Continue
 
 Show
                     Rarity = Unique
                     BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
                     LinkedSockets >= 1
-                    SetBackgroundColor 153 153 153 204
+                    SetBackgroundColor 102 102 102 204
 Continue
 
 Show
