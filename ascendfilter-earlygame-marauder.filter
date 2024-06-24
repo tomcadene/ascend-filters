@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Marauder
 # -------------------------
-# Version: 06.22.2024.001
+# Version: 06.24.2024.001
 # ==================================================
 
 # ==========
@@ -40,30 +40,6 @@ Continue
 
 # ==========
 # Rules
-
-Show
-                    Rarity = Normal
-                    Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 102
-                    SetFontSize 30
-                    SetTextColor 200 200 200 102
-Continue
-
-Show
-                    Rarity = Magic
-                    Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 153
-                    SetFontSize 35
-                    SetTextColor 136 136 255 102
-Continue
-
-Show
-                    Rarity = Rare
-                    Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 153
-                    SetFontSize 40
-                    SetTextColor 255 255 119 153
-Continue
 
 Show
                     Rarity = Normal
@@ -150,8 +126,9 @@ Continue
 
 Show
                     Rarity = Rare
-                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
                     MinimapIcon 2 Yellow Square
+                    SetTextColor 255 255 119 255
 Continue
 
 Show
