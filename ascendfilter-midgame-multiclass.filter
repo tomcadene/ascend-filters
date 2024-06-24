@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Multiclass
 # -------------------------
-# Version: 06.22.2024.001
+# Version: 06.24.2024.001
 # ==================================================
 
 # ==========
@@ -9,23 +9,23 @@
 
 Show
                     Rarity = Normal
-                    SetBackgroundColor 0 0 0 153
+                    SetBackgroundColor 0 0 0 102
                     SetFontSize 30
                     SetTextColor 200 200 200 102
 Continue
 
 Show
                     Rarity = Magic
-                    SetBackgroundColor 0 0 0 204
+                    SetBackgroundColor 0 0 0 153
                     SetFontSize 35
-                    SetTextColor 136 136 255 153
+                    SetTextColor 136 136 255 102
 Continue
 
 Show
                     Rarity = Rare
-                    SetBackgroundColor 0 0 0 204
+                    SetBackgroundColor 0 0 0 153
                     SetFontSize 40
-                    SetTextColor 255 255 119 204
+                    SetTextColor 255 255 119 102
 Continue
 
 Show
