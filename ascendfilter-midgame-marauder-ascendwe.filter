@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Marauder - Ascendwe
 # -------------------------
-# Version: 06.22.2024.001
+# Version: 06.24.2024.001
 # ==================================================
 
 # ==========
@@ -9,23 +9,23 @@
 
 Show
                     Rarity = Normal
-                    SetBackgroundColor 0 0 0 153
+                    SetBackgroundColor 0 0 0 102
                     SetFontSize 30
                     SetTextColor 200 200 200 102
 Continue
 
 Show
                     Rarity = Magic
-                    SetBackgroundColor 0 0 0 204
+                    SetBackgroundColor 0 0 0 153
                     SetFontSize 35
-                    SetTextColor 136 136 255 153
+                    SetTextColor 136 136 255 102
 Continue
 
 Show
                     Rarity = Rare
-                    SetBackgroundColor 0 0 0 204
+                    SetBackgroundColor 0 0 0 153
                     SetFontSize 40
-                    SetTextColor 255 255 119 204
+                    SetTextColor 255 255 119 102
 Continue
 
 Show
@@ -60,22 +60,6 @@ Show
 Continue
 
 Show
-                    Rarity = Normal
-                    Class == "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords"
-                    SetBackgroundColor 0 0 0 153
-                    SetFontSize 30
-                    SetTextColor 200 200 200 153
-Continue
-
-Show
-                    Rarity = Normal
-                    Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 102
-                    SetFontSize 30
-                    SetTextColor 200 200 200 102
-Continue
-
-Show
                     Rarity = Magic
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
                     BaseEnergyShield > 0
@@ -94,22 +78,6 @@ Show
 Continue
 
 Show
-                    Rarity = Magic
-                    Class == "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords"
-                    SetBackgroundColor 0 0 0 153
-                    SetFontSize 35
-                    SetTextColor 136 136 255 153
-Continue
-
-Show
-                    Rarity = Magic
-                    Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 153
-                    SetFontSize 35
-                    SetTextColor 136 136 255 102
-Continue
-
-Show
                     Rarity = Rare
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
                     BaseEnergyShield > 0
@@ -122,22 +90,6 @@ Show
                     Rarity = Rare
                     Class == "Body Armours" "Boots" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
                     BaseEvasion > 0
-                    SetBackgroundColor 0 0 0 153
-                    SetFontSize 40
-                    SetTextColor 255 255 119 153
-Continue
-
-Show
-                    Rarity = Rare
-                    Class == "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords"
-                    SetBackgroundColor 0 0 0 153
-                    SetFontSize 40
-                    SetTextColor 255 255 119 153
-Continue
-
-Show
-                    Rarity = Rare
-                    Class == "Bows" "Claws" "Daggers" "Quivers" "Rune Daggers" "Sceptres" "Staves" "Wands" "Warstaves"
                     SetBackgroundColor 0 0 0 153
                     SetFontSize 40
                     SetTextColor 255 255 119 153
