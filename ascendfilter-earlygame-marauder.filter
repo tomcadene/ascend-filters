@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Marauder
 # -------------------------
-# Version: 06.24.2024.001
+# Version: 06.27.2024.001
 # ==================================================
 
 # ==========
@@ -105,6 +105,17 @@ Show
 Continue
 
 Show
+                    Class == "Stackable Currency"
+                    BaseType == "Portal Scroll" "Scroll of Wisdom"
+                    StackSize <= 2
+                    PlayAlertSound 4 0
+                    SetBackgroundColor 0 0 0 102
+                    SetBorderColor 255 255 255 0
+                    SetFontSize 40
+                    SetTextColor 255 204 0 102
+Continue
+
+Show
                     Class == "Skill Gems" "Support Gems"
                     PlayAlertSound 12 200
                     MinimapIcon 2 Cyan Diamond
@@ -116,6 +127,30 @@ Continue
 
 # ==========
 # Specific rules
+
+Show
+                    Rarity = Normal
+                    Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    SetBackgroundColor 0 0 0 102
+                    SetFontSize 30
+                    SetTextColor 200 200 200 102
+Continue
+
+Show
+                    Rarity = Magic
+                    Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    SetBackgroundColor 0 0 0 153
+                    SetFontSize 35
+                    SetTextColor 136 136 255 102
+Continue
+
+Show
+                    Rarity = Rare
+                    Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Shields" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+                    SetBackgroundColor 0 0 0 153
+                    SetFontSize 40
+                    SetTextColor 255 255 119 153
+Continue
 
 Show
                     Class == "Labyrinth Items" "Labyrinth Trinkets"
@@ -132,135 +167,39 @@ Show
 Continue
 
 Show
-                    Rarity = Normal
                     Class == "Body Armours" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
                     LinkedSockets >= 6
                     PlayAlertSound 16 200
                     MinimapIcon 1 White Diamond
                     PlayEffect White
-                    SetBackgroundColor 102 102 102 204
+                    SetBackgroundColor 51 51 51 204
                     SetFontSize 45
 Continue
 
 Show
-                    Rarity = Magic
-                    Class == "Body Armours" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
-                    LinkedSockets >= 6
-                    PlayAlertSound 16 200
-                    MinimapIcon 1 White Diamond
-                    PlayEffect White
-                    SetBackgroundColor 102 102 102 204
-                    SetFontSize 45
-Continue
-
-Show
-                    Rarity = Rare
-                    Class == "Body Armours" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
-                    LinkedSockets >= 6
-                    PlayAlertSound 16 200
-                    MinimapIcon 1 White Diamond
-                    PlayEffect White
-                    SetBackgroundColor 102 102 102 204
-                    SetFontSize 45
-Continue
-
-Show
-                    Rarity = Unique
-                    Class == "Body Armours" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
-                    LinkedSockets >= 6
-                    PlayAlertSound 16 200
-                    MinimapIcon 1 White Diamond
-                    PlayEffect White
-                    SetBackgroundColor 102 102 102 204
-                    SetFontSize 45
-Continue
-
-Show
-                    Rarity = Normal
                     Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Thrusting One Hand Swords" "Wands"
                     LinkedSockets >= 3
-                    SetBackgroundColor 102 102 102 204
+                    SetBackgroundColor 51 51 51 204
 Continue
 
 Show
-                    Rarity = Magic
-                    Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Thrusting One Hand Swords" "Wands"
-                    LinkedSockets >= 3
-                    SetBackgroundColor 102 102 102 204
-Continue
-
-Show
-                    Rarity = Rare
-                    Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Thrusting One Hand Swords" "Wands"
-                    LinkedSockets >= 3
-                    SetBackgroundColor 102 102 102 204
-Continue
-
-Show
-                    Rarity = Unique
-                    Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Thrusting One Hand Swords" "Wands"
-                    LinkedSockets >= 3
-                    SetBackgroundColor 102 102 102 204
-Continue
-
-Show
-                    Rarity = Normal
                     Class == "Boots" "Gloves" "Helmets" 
                     LinkedSockets >= 4
-                    SetBackgroundColor 102 102 102 204
+                    SetBackgroundColor 51 51 51 204
 Continue
 
 Show
-                    Rarity = Magic
-                    Class == "Boots" "Gloves" "Helmets" 
-                    LinkedSockets >= 4
-                    SetBackgroundColor 102 102 102 204
-Continue
-
-Show
-                    Rarity = Rare
-                    Class == "Boots" "Gloves" "Helmets" 
-                    LinkedSockets >= 4
-                    SetBackgroundColor 102 102 102 204
-Continue
-
-Show
-                    Rarity = Unique
-                    Class == "Boots" "Gloves" "Helmets" 
-                    LinkedSockets >= 4
-                    SetBackgroundColor 102 102 102 204
-Continue
-
-Show
-                    Rarity = Normal
                     BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
                     LinkedSockets >= 1
-                    SetBackgroundColor 102 102 102 204
+                    SetBackgroundColor 51 51 51 204
 Continue
 
 Show
-                    Rarity = Magic
-                    BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
-                    LinkedSockets >= 1
-                    SetBackgroundColor 102 102 102 204
+                    Identified False
+                    SetBorderColor 255 255 255
 Continue
 
 Show
-                    Rarity = Rare
-                    BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
-                    LinkedSockets >= 1
-                    SetBackgroundColor 102 102 102 204
-Continue
-
-Show
-                    Rarity = Unique
-                    BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
-                    LinkedSockets >= 1
-                    SetBackgroundColor 102 102 102 204
-Continue
-
-Show
-                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
                     Corrupted True
                     SetBorderColor 210 0 0
 Continue
