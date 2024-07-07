@@ -203,11 +203,6 @@ Show
 Continue
 
 Show
-                    Identified False
-                    SetBorderColor 255 255 255
-Continue
-
-Show
                     Corrupted True
                     SetBorderColor 210 0 0
 Continue
@@ -236,7 +231,7 @@ Continue
 Show
                     Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
                     Rarity <= Rare
-                    SocketGroup >= 6
+                    LinkedSockets >= 6
                     MinimapIcon 1 Green Star
                     PlayEffect Green
                     SetBackgroundColor 19 44 0 204
