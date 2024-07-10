@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Multiclass
 # -------------------------
-# Version: 06.27.2024.001
+# Version: 07.10.2024.001
 # ==================================================
 
 # ==========
@@ -125,6 +125,26 @@ Show
                     SetTextColor 27 162 155
 Continue
 
+Show
+                    Class == "Divination Cards"
+                    PlayAlertSound 4 100
+                    MinimapIcon 2 Cyan Square
+                    SetBackgroundColor 0 0 0 204
+                    SetBorderColor 255 255 255 0
+                    SetFontSize 40
+                    SetTextColor 14 186 255
+Continue
+
+Show
+                    Class == "Heist Gear"
+                    PlayAlertSound 4 100
+                    MinimapIcon 2 Green Star
+                    SetBackgroundColor 0 0 0 204
+                    SetBorderColor 255 255 255 0
+                    SetFontSize 40
+                    SetTextColor 74 230 58
+Continue
+
 # ==========
 # Specific rules
 
@@ -160,34 +180,6 @@ Show
 Continue
 
 Show
-                    Class == "Body Armours" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
-                    LinkedSockets >= 6
-                    PlayAlertSound 16 200
-                    MinimapIcon 1 White Diamond
-                    PlayEffect White
-                    SetBackgroundColor 51 51 51 204
-                    SetFontSize 45
-Continue
-
-Show
-                    Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Shields" "Thrusting One Hand Swords" "Wands"
-                    LinkedSockets >= 3
-                    SetBackgroundColor 51 51 51 204
-Continue
-
-Show
-                    Class == "Boots" "Gloves" "Helmets" 
-                    LinkedSockets >= 4
-                    SetBackgroundColor 51 51 51 204
-Continue
-
-Show
-                    BaseType == "Unset Ring" "Unset Amulet" "Black Maw Talisman" "Stygian Vise" "Ornate Quiver" "Mechanical Belt"
-                    LinkedSockets >= 1
-                    SetBackgroundColor 51 51 51 204
-Continue
-
-Show
                     Corrupted True
                     SetBorderColor 210 0 0
 Continue
@@ -217,9 +209,11 @@ Show
                     Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
                     Rarity <= Rare
                     LinkedSockets >= 6
-                    MinimapIcon 1 Green Star
-                    PlayEffect Green
-                    SetBackgroundColor 19 44 0 204
+                    PlayAlertSound 16 200
+                    MinimapIcon 1 White Diamond
+                    PlayEffect White
+                    SetBackgroundColor 51 51 51 204
+                    SetFontSize 45
 Continue
 
 Show
