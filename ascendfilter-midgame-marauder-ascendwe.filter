@@ -1,7 +1,10 @@
 # ==================================================
 # AscendFilter Marauder - Ascendwe
 # -------------------------
-# Version: 07.10.2024.001
+# Version: 07.10.2024.002
+# -------------------------
+# Whitelist or 'show all' approach: Everything is visible by default unless specific rules are applied to items to modify their colors and/or visibility.
+# This method allows the filter to be compatible with new leagues, as only known items are modified, while new items will display their default appearance.
 # ==================================================
 
 # ==========
@@ -23,6 +26,7 @@ Continue
 
 Show
                     Rarity = Rare
+                    MinimapIcon 2 Yellow Square
                     SetBackgroundColor 0 0 0 204
                     SetFontSize 40
                     SetTextColor 255 255 119 204
@@ -39,89 +43,51 @@ Show
 Continue
 
 # ==========
+# Hiding rules
+
+Hide
+                    Rarity <= Magic
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+Continue
+
+Hide
+                    Rarity <= Rare
+                    Class == "Amulets" "Belts" "Rings"
+Continue
+
+Hide
+                    Rarity <= Rare
+                    Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+Continue
+
+# ==========
 # Rules
 
 Show
-                    Rarity = Normal
-                    Class == "Amulets" "Belts" "Rings"
-                    SetBackgroundColor 51 0 39 153
-                    SetFontSize 30
-                    SetTextColor 200 200 200 153
-Continue
-
-Show
-                    Rarity = Magic
+                    Rarity <= Unique
                     Class == "Amulets" "Belts" "Rings"
                     SetBackgroundColor 51 0 39 204
-                    SetFontSize 35
-                    SetTextColor 136 136 255 204
 Continue
 
 Show
-                    Rarity = Rare
-                    Class == "Amulets" "Belts" "Rings"
-                    MinimapIcon 2 Yellow Pentagon
-                    SetBackgroundColor 51 0 39 204
-                    SetFontSize 40
-                    SetTextColor 255 255 119 255
-Continue
-
-Show
-                    Rarity = Unique
-                    Class == "Amulets" "Belts" "Rings"
-                    PlayAlertSound 7 200
-                    MinimapIcon 1 Brown Pentagon
-                    PlayEffect Brown
-                    SetBackgroundColor 51 0 39 204
-                    SetFontSize 45
-                    SetTextColor 175 96 37 255
-Continue
-
-Show
-                    Rarity = Normal
+                    Rarity <= Unique
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
                     SetBackgroundColor 0 25 64 204
-                    SetFontSize 30
-                    SetTextColor 200 200 200 153
-Continue
-
-Show
-                    Rarity = Magic
-                    Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
-                    MinimapIcon 2 Blue Kite
-                    SetBackgroundColor 0 25 64 204
-                    SetFontSize 35
-                    SetTextColor 136 136 255 204
 Continue
 
 Show
                     Class == "Stackable Currency"
                     PlayAlertSound 4 100
                     MinimapIcon 2 Yellow Circle
-                    SetBackgroundColor 0 0 0 204
-                    SetBorderColor 255 255 255 0
-                    SetFontSize 40
+                    PlayEffect Yellow Temp
                     SetTextColor 255 204 0
-Continue
-
-Show
-                    Class == "Stackable Currency"
-                    BaseType == "Portal Scroll" "Scroll of Wisdom"
-                    StackSize <= 2
-                    PlayAlertSound 4 0
-                    SetBackgroundColor 0 0 0 102
-                    SetBorderColor 255 255 255 0
-                    SetFontSize 40
-                    SetTextColor 255 204 0 102
 Continue
 
 Show
                     Class == "Skill Gems" "Support Gems"
                     PlayAlertSound 12 200
                     MinimapIcon 2 Cyan Diamond
-                    SetBackgroundColor 0 0 0 204
-                    SetBorderColor 255 255 255 0
-                    SetFontSize 40
+                    PlayEffect Cyan Temp
                     SetTextColor 27 162 155
 Continue
 
@@ -129,19 +95,15 @@ Show
                     Class == "Divination Cards"
                     PlayAlertSound 4 100
                     MinimapIcon 2 Cyan Square
-                    SetBackgroundColor 0 0 0 204
-                    SetBorderColor 255 255 255 0
-                    SetFontSize 40
+                    PlayEffect Cyan Temp
                     SetTextColor 14 186 255
 Continue
 
 Show
-                    Class == "Heist Gear"
+                    Class == "Heist Gear" "Heist Targets"
                     PlayAlertSound 4 100
                     MinimapIcon 2 Green Star
-                    SetBackgroundColor 0 0 0 204
-                    SetBorderColor 255 255 255 0
-                    SetFontSize 40
+                    PlayEffect Green Temp
                     SetTextColor 74 230 58
 Continue
 
@@ -149,32 +111,7 @@ Continue
 # Specific rules
 
 Show
-                    Rarity = Normal
-                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 102
-                    SetFontSize 30
-                    SetTextColor 200 200 200 102
-Continue
-
-Show
-                    Rarity = Magic
-                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 102
-                    SetFontSize 35
-                    SetTextColor 136 136 255 102
-Continue
-
-Show
-                    Rarity = Rare
-                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
-                    SetBackgroundColor 0 0 0 102
-                    SetFontSize 40
-                    SetTextColor 255 255 119 102
-Continue
-
-Show
                     Class == "Labyrinth Items" "Labyrinth Trinkets"
-                    SetBackgroundColor 0 0 0 204
                     SetBorderColor 170 158 130 204
                     SetFontSize 40
 Continue
