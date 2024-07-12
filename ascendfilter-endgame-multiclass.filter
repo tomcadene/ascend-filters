@@ -1,0 +1,163 @@
+# ==================================================
+# AscendFilter Multiclass
+# -------------------------
+# Version: 07.12.2024.001
+# -------------------------
+# Whitelist or 'show all' approach: Everything is visible by default unless specific rules are applied to items to modify their colors and/or visibility.
+# This method allows the filter to be compatible with new leagues, as only known items are modified, while new items will display their default appearance.
+# ==================================================
+
+# ==========
+# General rules
+
+Show
+                    Rarity = Normal
+                    SetBackgroundColor 0 0 0 153
+                    SetFontSize 30
+                    SetTextColor 200 200 200 102
+Continue
+
+Show
+                    Rarity = Magic
+                    SetBackgroundColor 0 0 0 204
+                    SetFontSize 35
+                    SetTextColor 136 136 255 153
+Continue
+
+Show
+                    Rarity = Rare
+                    MinimapIcon 2 Yellow Square
+                    SetBackgroundColor 0 0 0 204
+                    SetFontSize 40
+                    SetTextColor 255 255 119 204
+Continue
+
+Show
+                    Rarity = Unique
+                    PlayAlertSound 16 200
+                    MinimapIcon 1 Brown Square
+                    PlayEffect Brown
+                    SetBackgroundColor 0 0 0 204
+                    SetFontSize 45
+                    SetTextColor 175 96 37 255
+Continue
+
+# ==========
+# Hiding rules
+
+Hide
+                    Rarity <= Rare
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+Continue
+
+Hide
+                    Rarity <= Rare
+                    Class == "Amulets" "Belts" "Rings"
+Continue
+
+Hide
+                    Rarity <= Rare
+                    Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+Continue
+
+# ==========
+# Rules
+
+Show
+                    Rarity <= Unique
+                    Class == "Amulets" "Belts" "Rings"
+                    SetBackgroundColor 51 0 39 204
+Continue
+
+Show
+                    Rarity <= Unique
+                    Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+                    SetBackgroundColor 0 25 64 204
+Continue
+
+Show
+                    Class == "Stackable Currency"
+                    PlayAlertSound 4 100
+                    MinimapIcon 2 Yellow Circle
+                    PlayEffect Yellow Temp
+                    SetTextColor 255 204 0
+Continue
+
+Show
+                    Class == "Skill Gems" "Support Gems"
+                    PlayAlertSound 12 200
+                    MinimapIcon 2 Cyan Diamond
+                    PlayEffect Cyan Temp
+                    SetTextColor 27 162 155
+Continue
+
+Show
+                    Class == "Divination Cards"
+                    PlayAlertSound 4 100
+                    MinimapIcon 2 Cyan Square
+                    PlayEffect Cyan Temp
+                    SetTextColor 14 186 255
+Continue
+
+Show
+                    Class == "Heist Gear" "Heist Targets"
+                    PlayAlertSound 4 100
+                    MinimapIcon 2 Green Star
+                    PlayEffect Green Temp
+                    SetTextColor 74 230 58
+Continue
+
+# ==========
+# Specific rules
+
+Show
+                    Class == "Labyrinth Items" "Labyrinth Trinkets"
+                    SetBorderColor 170 158 130 204
+                    SetFontSize 40
+Continue
+
+Show
+                    Corrupted True
+                    SetBorderColor 210 0 0
+Continue
+
+# ==========
+# Vendor recipes
+
+Show
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+                    Rarity <= Rare
+                    SocketGroup >= 3RGB
+                    MinimapIcon 1 Green Star
+                    PlayEffect Green
+                    SetBackgroundColor 19 44 0 204
+Continue
+
+Show
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+                    Rarity <= Rare
+                    Sockets >= 6
+                    MinimapIcon 1 Green Star
+                    PlayEffect Green
+                    SetBackgroundColor 19 44 0 204
+Continue
+
+Show
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+                    Rarity <= Rare
+                    LinkedSockets >= 6
+                    PlayAlertSound 16 200
+                    MinimapIcon 1 White Diamond
+                    PlayEffect White
+                    SetBackgroundColor 51 51 51 204
+                    SetFontSize 45
+Continue
+
+Show
+                    Class == "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+                    Rarity <= Rare
+                    Quality >= 20
+                    MinimapIcon 1 Green Star
+                    PlayEffect Green
+                    SetBackgroundColor 19 44 0 204
+Continue
