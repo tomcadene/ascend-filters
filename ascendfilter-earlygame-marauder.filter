@@ -1,7 +1,7 @@
 # ==================================================
 # AscendFilter Marauder
 # -------------------------
-# Version: 07.10.2024.001
+# Version: 07.14.2024.001
 # -------------------------
 # Whitelist or 'show all' approach: Everything is visible by default unless specific rules are applied to items to modify their colors and/or visibility.
 # This method allows the filter to be compatible with new leagues, as only known items are modified, while new items will display their default appearance.
@@ -42,9 +42,6 @@ Show
                     SetTextColor 175 96 37 255
 Continue
 
-# ==========
-# Rules
-
 Show
                     Rarity <= Unique
                     Class == "Amulets" "Belts" "Rings"
@@ -56,6 +53,9 @@ Show
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
                     SetBackgroundColor 0 25 64 204
 Continue
+
+# ==========
+# Rules
 
 Show
                     Class == "Stackable Currency"
