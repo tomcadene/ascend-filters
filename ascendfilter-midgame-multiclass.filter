@@ -51,12 +51,12 @@ Hide
 Continue
 
 Hide
-                    Rarity <= Rare
+                    Rarity <= Magic
                     Class == "Amulets" "Belts" "Rings"
 Continue
 
 Hide
-                    Rarity <= Rare
+                    Rarity <= Magic
                     Class == "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
 Continue
 
